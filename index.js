@@ -19,7 +19,7 @@ client.on("ready", () => {
 
 client.on('message', message => {
     if(message.content.toLowerCase() === 'GalaxyStore')
-    message.channel.send(`${user} , Nossa essa ai é uma loja boa!!`);
+    message.channel.send(`Nossa essa ai é uma loja boa!!`);
 
 });
 
